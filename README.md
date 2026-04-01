@@ -21,7 +21,7 @@ juan, 25, madrid
 # Pensamientos
 - Al momento de trabajar con los datos en un for, recordar que se mueven como por filas y columnas, ejmplo [][] -> la primera es como si definiera las filas y la sefunda las columnas.
 
-![alt text](image.png) 
+![alt text](img/image.png) 
 
 ## File csv
 - "r" → leer
