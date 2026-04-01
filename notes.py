@@ -13,6 +13,7 @@ with open("notes.csv", newline='') as f:# f es una especie de variable para ingr
 
 # Elemento por elemento ordenado
 def getData(notes):
+    print(len(notes))
     for i in range(1, len(notes)):
         for j in range(len(notes[i])):
             print(notes[0][j] + ': ' + notes[i][j])
@@ -34,7 +35,6 @@ getData(notes)
 getAverage(notes)
 
 # Escribir en el archivo datos de media
-
 notes[0].append('Media')
 for i in range(1, len(notes)):
     notes[i].append(average[i-1])
